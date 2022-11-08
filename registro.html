@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/style2.css">
+        <script src="scripts/jquery-3.6.0.js"></script>
+        <script src="scripts/jquery-3.6.0.min.js"></script>
+        <script src="scripts/script.js"></script>
+        <link href="/favicon.png">
+        <title>Registro</title>
+    </head>
+
+    <body onload="registro()">
+        <img class="logo_reto" src="imagenes/logo_reto_solar.png" alt="">
+        <img class="logo_syscom" src="https://ingenieria.syscom.mx/imagenes/logo-syscom.png">
+        <h1>IV CARRERA DE AUTOS SOLARES</h1><br><br>
+        <div class="contenido">
+            <h2>Registro de Autos</h2><br>
+            <div class="texto">Nombre<br>
+            <input type="text" id="nombre"></div><br>
+            <div class="texto">Placa<br>
+            <input type="text" id="placa"></div><br>
+            <button id="guardar" onclick="guardar()">Guardar</button><br><br><br>
+        </div>
+        <span id="tabla"></span>
+    </body>
+</html>
